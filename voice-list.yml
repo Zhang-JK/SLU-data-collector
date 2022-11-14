@@ -7,103 +7,81 @@ prefix:
   - ""
 
 data:
+  - script: "find a chair"
+    action: "find"
+    object: "chair"
   - script: "move forward"
     action: "forward"
     object: "none"
-    id: 0
   - script: "keep going"
     action: "forward"
     object: "none"
-    id: 1
   - script: "go alone the street"
     action: "forward"
     object: "none"
-    id: 2
   - script: "go straight"
     action: "forward"
     object: "none"
-    id: 3
   - script: "go ahead"
     action: "forward"
     object: "none"
-    id: 4
   - script: "stop"
     action: "stop"
     object: "none"
-    id: 5
   - script: "stop moving forward"
     action: "stop"
     object: "none"
-    id: 6
   - script: "do not move"
     action: "stop"
     object: "none"
-    id: 7
   - script: "turn left"
     action: "left"
     object: "none"
-    id: 8
   - script: "turn right"
     action: "right"
     object: "none"
-    id: 9
   - script: "go to the left"
     action: "left"
     object: "none"
-    id: 10
   - script: "go to the right"
     action: "right"
     object: "none"
-    id: 11
   - script: "find a door out"
     action: "find"
     object: "door"
-    id: 12
   - script: "find the door"
     action: "find"
     object: "door"
-    id: 13
   - script: "find an exit"
     action: "find"
     object: "door"
-    id: 14
   - script: "take me to the door"
     action: "find"
     object: "door"
-    id: 15
   - script: "bring me to the exit"
     action: "find"
     object: "door"
-    id: 16
   - script: "turn up the volume"
     action: "up"
     object: "volume"
-    id: 17
   - script: "turn down the volume"
     action: "down"
     object: "volume"
-    id: 18
   - script: "increase the volume"
     action: "up"
     object: "volume"
-    id: 19
   - script: "decrease the volume"
     action: "down"
     object: "volume"
-    id: 20
   - script: "speed up"
     action: "up"
     object: "speed"
-    id: 21
   - script: "slow down"
     action: "down"
     object: "speed"
-    id: 22
   - script: "increase the speed"
     action: "up"
     object: "speed"
-    id: 23
   - script: "decrease the speed"
     action: "down"
     object: "speed"
-    id: 24
