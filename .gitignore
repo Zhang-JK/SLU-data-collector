@@ -1,0 +1,13 @@
+wavs
+*.csv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info
+*.egg
+*.zip
+*.tar
+*.tar.gz
