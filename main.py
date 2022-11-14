@@ -1,3 +1,4 @@
+from datetime import datetime
 import random
 
 from voice_handler import Recoder
@@ -59,7 +60,7 @@ def start():
 
     recoder.close()
     csv.save()
-    zip_name = speaker + '.zip'
+    zip_name = speaker + '-' + datetime.now().strftime('%m-%dT%H:%M:%S') + '.zip'
     with ZipFile(zip_name, 'w') as zipObj:
         zipObj.write(speaker + '.csv')
         zipObj.write("wavs/speakers/" + speaker, "wavs/speakers/" + speaker)
@@ -67,8 +68,9 @@ def start():
             for file in files:
                 zipObj.write("wavs/speakers/" + speaker + "/" + file, "wavs/speakers/" + speaker + "/" + file)
 
-    print("\n\nThis is the ending of audio collection. \nThe zip file is located at \033[1m" + zip_name + "\033[0m")
-    print("Thank you for your contribution!")
+    print("\n\n------------------------- FINISHED -------------------------")
+    print("This is the ending of audio data collection. \nThe zip file is located at \033[1m" + zip_name + "\033[0m")
+    print("Thank you for your contribution :)")
 
 
 if __name__ == "__main__":
