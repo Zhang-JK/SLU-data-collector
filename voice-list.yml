@@ -11,19 +11,19 @@ data:
     action: "forward"
     object: "none"
     id: 0
-  - script: "keep going"
-    action: "forward"
-    object: "none"
-    id: 1
-  - script: "go alone the street"
-    action: "forward"
-    object: "none"
-    id: 2
-  - script: "go straight"
-    action: "forward"
-    object: "none"
-    id: 3
-  - script: "go forward"
-    action: "forward"
-    object: "none"
-    id: 4
+#  - script: "keep going"
+#    action: "forward"
+#    object: "none"
+#    id: 1
+#  - script: "go alone the street"
+#    action: "forward"
+#    object: "none"
+#    id: 2
+#  - script: "go straight"
+#    action: "forward"
+#    object: "none"
+#    id: 3
+#  - script: "go forward"
+#    action: "forward"
+#    object: "none"
+#    id: 4
